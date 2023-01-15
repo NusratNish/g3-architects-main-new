@@ -299,4 +299,28 @@
         width: 100%;
         margin: 0;
     }
+    .Testimonial-list{
+        display: flex;
+        flex-direction: column;
+    }
+    .sponsore-list{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px ;
+    }
+    .footer{
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+   .some-fact-detailss
+   {
+    display: flex;
+    flex-direction: column;
+    
+   }
+   .start-Some{
+    display: flex;
+    flex-direction: column;
+   }
 }
