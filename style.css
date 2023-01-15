@@ -167,7 +167,7 @@
 .some-fact-detail{
     display: flex;
      margin-top: 50px;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .start-Some-heading h1{
     font-size: 45px;
@@ -280,16 +280,23 @@
   }
 
 @media only screen and (max-width:576px) {
- 
-    /* .Features-img{
+     .navber{
+        display: flex;
+        flex-direction: column;
+     }
+    .Features-img{
         width: 100%;
         justify-content: center;
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }   
     .Features-details{
-        flex-direction: column;
-    }   */
+        flex-direction:column-reverse;
+    }  
+    .new-Features{
+        display: flex;
+        flex-direction: column-reverse;
+    }
     .banner-section{
         width: 100%;
         display: grid;
@@ -313,14 +320,14 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
     }
-   .some-fact-detailss
-   {
-    display: flex;
-    flex-direction: column;
-    
-   }
    .start-Some{
+    width: 100%;
+    display:flex ;
+    flex-direction: column-reverse;
+   }
+   .some-fact-detail{
     display: flex;
     flex-direction: column;
+     gap: 10px;
    }
 }
