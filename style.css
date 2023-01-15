@@ -62,7 +62,7 @@
 .banner-section .banner-img{
    margin-left: 10%;
    padding-bottom: 20px;
-   width: 100%;
+   /* width: 100%; */
 }
 /* ---------------------------Features-section----------------------- */
 .Features-section{
@@ -283,6 +283,13 @@
      .navber{
         display: flex;
         flex-direction: column;
+     }
+     
+     .banner{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
      }
      .banner-section{
         display: grid;
